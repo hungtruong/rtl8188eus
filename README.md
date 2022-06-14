@@ -1,9 +1,8 @@
-cd ~/Documents
-git clone https://github.com/lwfinger/rtl8188eu
-cd rtl8188eu
-make
-sudo make install
-sudo modprobe 8188eu
+* git clone https://github.com/lwfinger/rtl8188eu
+* cd rtl8188eu
+* make
+* sudo make install
+* sudo modprobe 8188eu
 
 Like https://github.com/cccooo/rtl8812au-centos-7.6, forked from aircrack-ng/rtl8188eus and modified for CentOS 7.9
 as CentOS Kernel 3.10 contains many code from 4.x
